@@ -71,7 +71,7 @@ summary(arima.forecast)
 
 accuracy(fit)
 
-# 
+
 # lines(meanf(actualshare)$mean)
 # lines(meanf(actualshare)$mean, col=4)
 # legenddate("topleft", lty=1, col=c(4), legenddate=c("Mean method"),bty="n")
@@ -88,7 +88,3 @@ accuracy(fit)
 # accuracy(rwf(actualshare,drift=TRUE))
 # accuracy(snaive(actualshare))
 
-rsconnect::deployApp('/Users/myron/Desktop/Stock Market Analysis - Myron Zibreel/Technical Analysis ARIMA - Myron Zibreel')
-rsconnect::setAccountInfo(name='stockmarketanalysis-myronzibreel',
-                          +                           token='D82B180DD75688A318C89BF659FA31F8',
-                          +                           secret='YPxP7BUnAnMEug/uvO7Xk8rkcgMzzNo1yFr6k4B7')
