@@ -83,21 +83,21 @@ server <- function(input, output, session) {
   
   output$arimaForecastPlot <- renderPlot({
 
-      f <- forecast(auto.arima(getDataset()),h=getDays(), level=95)
-     plot(f)
-    print("Accuracy using Plain ARIMA is : ")
-  print(accuracy(f))
+    # f <- forecast(auto.arima(getDataset()),h=getDays(), level=95)
+    # plot(f)
+    # print("Accuracy using Plain ARIMA is : ")
+    #print(accuracy(f))
 
 
-  # m<-input$ahead
-   # y=ts(rnorm(getDataset()), f=365.25)
-    #fit <- auto.arima(y, xreg = fourier(y, K = 2))
-     #fc <- forecast(fit,h=2*m,xreg = fourier(y, K = 2, h = 2*m))
-     #plot(fc)
-     #print("Accuracy using ARIMA with Fourier Regressor is : ")
-     #print(accuracy(fc))
-     #outliers <- tsoutliers(y)
-     #print(outliers)
+     m<-input$ahead
+     y=ts(rnorm(getDataset()), f=365.25)
+     fit <- auto.arima(y, xreg = fourier(y, K = 2))
+     fc <- forecast(fit,h=2*m,xreg = fourier(y, K = 2, h = 2*m))
+     plot(fc)
+     print("Accuracy using ARIMA with Fourier Regressor is : ")
+     print(accuracy(fc))
+     outliers <- tsoutliers(y)
+     print(outliers)
   })
   
   
