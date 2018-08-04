@@ -7,8 +7,8 @@ library(xts);
 startdate <- as.Date("2017-01-1")
 enddate <- as.Date("2018-07-4")
 
-getSymbols("COLPAL.NS", src = "yahoo", from =startdate, to = enddate)
-share_prices = COLPAL.NS[,4]
+getSymbols("AAPL", src = "yahoo", from =startdate, to = enddate)
+share_prices = AAPL[,4]
 share_prices = na.approx(share_prices)
 plot(share_prices,type='l', main='returns plot')
 print(adf.test(share_prices))
