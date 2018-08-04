@@ -8,7 +8,7 @@ ui <- dashboardPage(skin = "blue",
                     dashboardSidebar(
                       
                       
-                      textInput("company", "Symbol","RCOMM.NS"),
+                      textInput("company", "Symbol","AAPL"),
                       
                       dateInput("datez",
                                 label = "Enter date from when the forecast should start.",
