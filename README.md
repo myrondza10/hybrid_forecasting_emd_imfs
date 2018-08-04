@@ -2,6 +2,8 @@
 
 Stock analysis is a method for investors and traders to make buying and selling decisions. By studying and evaluating past and current data, investors and traders attempts to gain an edge in the markets by making informed decisions. Stock market prediction and analysis is a classic problem which has been analyzed extensively using tools and techniques of Machine Learning. Forecasting stock market prices has always been challenging task for many business analysts and researchers. In fact, stock market price prediction is an interesting area of research for investors. For successful investment lot many investors are interested in knowing about future situation of market. Effective prediction systems indirectly help traders by providing supportive information such as the future market direction. Data mining techniques are effective for forecasting future by applying various algorithms over data.
 
+Web Application using Shiny Server https://stockmarketanalysis-myron.shinyapps.io/prediction/
+
 ARIMA Model :
 
 Box and Jenkins in 1970 introduced the ARIMA model. It also referred to as Box-Jenkins methodology composed of set of activities for identifying, estimating and diagnosing ARIMA models with time series data. The model is most prominent methods in financial forecasting. ARIMA models have shown efficient capability to generate short-term forecasts. It constantly outperformed complex structural models in short-term prediction. In the ARIMA model, the future value of a variable is a linear combination of past values and past errors.
