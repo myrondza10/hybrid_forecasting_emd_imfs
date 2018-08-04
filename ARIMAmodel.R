@@ -1,3 +1,5 @@
+#Comparing Actual and Predicted Values of ARIMA Model without Fourier Series
+
 library(quantmod);
 library(tseries);
 library(timeSeries);
