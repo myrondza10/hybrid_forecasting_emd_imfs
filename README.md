@@ -40,4 +40,4 @@ The MAE is defined by making each error positive by taking its absolute value an
 
 4)	Mean Squared Error (MSE) The mean squared error is a measure of accuracy computed by squaring the individual error for each value in a data set and then finding the mean value of the sum of those squares. It gives greater weight to large errors than to small errors because the errors are squared before being summed up
 
-Once we have determined the parameters (p,d,q) we estimate the accuracy of the ARIMA model on a training data set and then use the fitted model to forecast the values of the test data set using a forecasting function. In the end, we cross check whether our forecasted values are in line with the actual values which is shown in the diagram below.
+Once we have determined the parameters (p,d,q) we estimate the accuracy of the ARIMA model on a training data set and then use the fitted model to forecast the values of the test data set using a forecasting function. In the end, we cross check whether our forecasted values are in line with the actual values.
