@@ -88,7 +88,9 @@ server <- function(input, output, session) {
     # print("Accuracy using Plain ARIMA is : ")
     #print(accuracy(f))
 
-
+ 
+    #Fourier Series Added to Improve the Accuracy of the ARIMA model
+    
      m<-input$ahead
      y=ts(rnorm(getDataset()), f=365.25)
      fit <- auto.arima(y, xreg = fourier(y, K = 2))
