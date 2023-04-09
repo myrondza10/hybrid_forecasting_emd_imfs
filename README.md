@@ -1,6 +1,6 @@
 # Financial Data Analysis & Forecasting using HHT - Empirical Mode Decomposition & Ensemble Forecasting.
 
-Performed Analysis & Prediction on Financial Stock Market data using using Hilbert–Huang Transform (HHT) - Empirical Mode Decomposition (EMD) along with Ensemble Forecasts on Intrinsic Mode Functions (IMFs) using ARIMA (Auto Regressive Integrated Moving Average) and BSTS (Bayesian Structural Time Series) in R.
+Performed Analysis & Prediction on Financial Stock Market data using using Hilbert–Huang Transform (HHT) - Empirical Mode Decomposition (EMD) along with Ensemble Forecasts on Intrinsic Mode Functions (IMFs) using BSTS (Bayesian Structural Time Series) in R.
 
 
 The four forecast error statistics are computed as follows :
