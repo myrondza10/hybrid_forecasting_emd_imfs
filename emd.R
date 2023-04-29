@@ -77,7 +77,7 @@ BSTS_model <- function(x) {
   ss <- AddAutoAr(ss,x)
   bsts.model <- bsts(x, ss, niter = 2000,seed=8675309,expected.model.size=5)
   burn <- SuggestBurn(0.1, bsts.model)
-  pred <- predict(bsts.model,horizon = 5,burn= burn,quantiles = c(.025, .975),InstantaneousFrequency_Pred)
+  pred <- predict(bsts.model,horizon = 5,burn= burn,quantiles = c(.025, .975))
   return(pred$mean)
 }
 
